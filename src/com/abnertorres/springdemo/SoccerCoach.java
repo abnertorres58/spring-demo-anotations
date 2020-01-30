@@ -16,4 +16,9 @@ public class SoccerCoach implements Coach{
     public String getDailyWorkout() {
         return "Keep the ball close to the body running faster for 10 minutes";
     }
+
+    @Override
+    public String getDailyFortune() {
+        return null;
+    }
 }
