@@ -10,7 +10,7 @@ public class TennisCoach implements Coach {
 
     //define a default constructor
     public TennisCoach() {
-        System.out.println("TennisCoach: inside default constructor");
+        System.out.println(">> TennisCoach: inside default constructor");
     }
 
 //    @Autowired
@@ -19,7 +19,8 @@ public class TennisCoach implements Coach {
 //    }
 
     @Autowired
-    public void setFortuneService(FortuneService fortuneService) {
+    public void doSomeCrazyStuff(FortuneService fortuneService) {
+        System.out.println(">> TennisCoach: inside  doSomeCrazyStuff method");
         this.fortuneService = fortuneService;
     }
 
